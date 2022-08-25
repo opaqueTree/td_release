@@ -1,2 +1,0 @@
-- name: Delete Older Releases
-  uses: dev-drprasad/delete-older-releases@v0.2.0
