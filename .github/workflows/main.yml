@@ -22,7 +22,7 @@ jobs:
       # Clean old releases
       - uses: dev-drprasad/delete-older-releases@v0.2.0
         with:
-          repo: <owner>/<repoName> # defaults to current repo
+          repo: opaqueTree/td_release
           keep_latest: 5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
