@@ -23,6 +23,6 @@ jobs:
       - uses: dev-drprasad/delete-older-releases@v0.2.0
         with:
           repo: opaqueTree/td_release
-          keep_latest: 6
+          keep_latest: 10
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
